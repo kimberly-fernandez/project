@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<style>
+body {
+  background-image: url('/Users/kimberlyfernandez/Desktop/reservation.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<a href="homee.html"><font color="white">Home |</font></a>
+<a href="menu.html"><font color="white">Menu |</font></a>
+<a href="reservation.html"><font color="white">Reservation</font></a>
+
+<div style="background-color:white">
+<table width="40%" align="center" >
+
+<tr>
+<td colspan="2"><b><font size="5" color="black">Dining Hours:</font></b></td>
+<td><br /></td>
+</tr>
+
+<tr>
+<th>Lunch:</th>
+<td><font color="black">Monday - Friday</font></td>
+<td><font color="black">12:00pm - 2:30pm</font></td>
+</tr>
+
+<tr>
+<th rowspan="2">Dinner:</th>
+<td><font color="black">Monday - Thursday</font></td>
+<td><font color="black">5:00m - 10:30pm</font></td>
+</tr>
+
+<tr>
+<td><font color="black">Friday - Sunday</font></td>
+<td><font color="black">5:00pm - 11:30pm</font></td>
+</tr>
+
+</table>
+</div>
+
+<form action="/le_bernardin.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=" "><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=" "><br><br>
+  <label for="lname">Phone Number:</label><br>
+  <input type="text" id="number" name="number" value=" "><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<footer>
+<p>Once you click the "Submit" button, the form-data will be sent to a page called
+ "/le_bernardin.php" for your reservation.</p>
+ </footer>
+
+</body>
+</html>
